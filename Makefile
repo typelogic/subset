@@ -14,4 +14,4 @@ HelloWorld.class: HelloWorld.java IHelloWorld.class
 clean: 
 	@rm -rf com/ *.class
 
-.CLEAN: phony
+.PHONY: clean
